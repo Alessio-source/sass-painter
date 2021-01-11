@@ -3,3 +3,14 @@
   display: table;
   clear: both;
 }
+
+@mixin header {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

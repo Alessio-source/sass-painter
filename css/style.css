@@ -40,3 +40,30 @@ header .top ul li a:hover {
   color: white;
   text-decoration: underline;
 }
+header .bottom {
+  max-width: 1150px;
+  margin: 0 auto;
+  color: white;
+}
+header .bottom ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+  height: 100%;
+}
+header .bottom ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  height: 45px;
+}
+header .bottom ul li img {
+  height: 25px;
+}
+header .bottom ul li:not(:first-of-type):hover {
+  background-color: white;
+  color: #0F0F0F;
+}

@@ -1,9 +1,9 @@
 header {
   background-color: $primaryColor;
+
   .top {
     padding: 15px;
-    max-width: 1150px;
-    margin: 0 auto;
+    @include header;
     ul {
       float: right;
       list-style: none;
@@ -23,6 +23,29 @@ header {
             color: white;
             text-decoration: underline;
           }
+        }
+      }
+    }
+  }
+
+  .bottom {
+    @include header;
+    color: white;
+    ul {
+      @include flex-center;
+      list-style: none;
+      flex-wrap: wrap;
+      height: 100%;
+      li {
+        @include flex-center;
+        padding: 0 20px;
+        height: 45px;
+        img {
+          height: 25px;
+        }
+        &:not(:first-of-type):hover {
+          background-color: white;
+          color: $primaryColor;
         }
       }
     }
