@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  background-color: #0F0F0F;
+}
+header .top {
+  padding: 15px;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+header .top ul {
+  float: right;
+  list-style: none;
+}
+header .top ul li {
+  display: inline-block;
+}
+header .top ul li:not(:last-of-type) {
+  margin-right: 10px;
+}
+header .top ul li i {
+  color: #177ECE;
+  margin-right: 10px;
+}
+header .top ul li a {
+  text-decoration: none;
+  color: #989898;
+}
+header .top ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}

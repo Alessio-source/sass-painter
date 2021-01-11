@@ -1,0 +1,30 @@
+header {
+  background-color: $primaryColor;
+  .top {
+    padding: 15px;
+    max-width: 1150px;
+    margin: 0 auto;
+    ul {
+      float: right;
+      list-style: none;
+      li {
+        display: inline-block;
+        &:not(:last-of-type) {
+          margin-right: $short;
+        }
+        i {
+          color: $textColorBlue;
+          margin-right: $short;
+        }
+        a {
+          text-decoration: none;
+          color: $textColorGrey;
+          &:hover {
+            color: white;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
