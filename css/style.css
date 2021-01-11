@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+body {
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+}
+
 .clearfix::after {
   content: "";
   display: table;
