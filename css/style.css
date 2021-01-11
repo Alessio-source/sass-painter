@@ -72,3 +72,119 @@ header .bottom ul li:not(:first-of-type):hover {
   background-color: white;
   color: #0F0F0F;
 }
+header .jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 15px;
+  color: white;
+}
+header .jumbotron .name {
+  align-self: flex-end;
+  color: #989898;
+  font-size: 0.8em;
+}
+header .jumbotron .info {
+  margin-left: 30px;
+  padding: 10px;
+}
+header .jumbotron .info h2 {
+  font-size: 2em;
+  font-weight: normal;
+}
+header .jumbotron .info h3 {
+  font-size: 1.6em;
+  font-weight: normal;
+  margin: 20px 0;
+}
+header .jumbotron .info ul {
+  list-style: none;
+}
+header .jumbotron .info ul li:not(:first-of-type) {
+  margin-top: 10px;
+}
+header .jumbotron .info ul li {
+  font-size: 1.2em;
+}
+header .jumbotron .info ul li i {
+  color: #989898;
+}
+header .jumbotron .info button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 15px;
+  outline: none;
+  border: none;
+  background-color: #666;
+  cursor: pointer;
+  color: white;
+}
+header .jumbotron .info button .left {
+  padding-right: 10px;
+  border-right: 1px solid white;
+}
+header .jumbotron .info button .left p:first-of-type {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+header .jumbotron .info button i {
+  margin-left: 10px;
+  vertical-align: middle;
+  font-size: 1.5em;
+}
+header .jumbotron .info button:hover {
+  background-color: #605F5B;
+}
+header .jumbotron .buy {
+  background-color: #0F0F0F;
+  padding: 15px;
+  margin-left: 20px;
+  color: white;
+}
+header .jumbotron .buy .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+header .jumbotron .buy .container .left p {
+  color: #989898;
+  margin: 20px 0;
+}
+header .jumbotron .buy .container .left button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  background-color: #177ECE;
+  color: white;
+  cursor: pointer;
+}
+header .jumbotron .buy .container .left button:hover {
+  background-color: #1E9CFF;
+}
+header .jumbotron .buy .offer {
+  padding: 15px;
+  background-color: white;
+  margin-bottom: 100px;
+  color: #0F0F0F;
+}
+header .jumbotron .buy .offer p {
+  color: #989898;
+  margin: 10px 0;
+}
+header .jumbotron .buy .offer a {
+  color: #177ECE;
+  text-decoration: none;
+  font-weight: bold;
+}
+header .jumbotron .buy .offer a:hover {
+  text-decoration: underline;
+}

@@ -50,4 +50,119 @@ header {
       }
     }
   }
+
+  .jumbotron {
+    @include flex-center;
+    @include jumbo-background;
+    padding: 15px;
+    color: white;
+    .name {
+      align-self: flex-end;
+      color: $textColorGrey;
+      font-size: 0.8em;
+    }
+    .info {
+      margin-left: 30px;
+      padding: $short;
+      h2 {
+        font-size: 2em;
+        font-weight: normal;
+      }
+      h3 {
+        font-size: 1.6em;
+        font-weight: normal;
+        margin: 20px 0;
+      }
+      ul {
+        list-style: none;
+        li:not(:first-of-type) {
+          margin-top: 10px;
+        }
+        li {
+          font-size: 1.2em;
+          i {
+            color: $textColorGrey;
+          }
+        }
+      }
+      button {
+        @include flex-center;
+        margin-top: 10px;
+        padding: 15px;
+        outline: none;
+        border: none;
+        background-color: #666;
+        cursor: pointer;
+        color: white;
+        .left {
+          padding-right: 10px;
+          border-right: 1px solid white;
+          p:first-of-type {
+            text-transform: uppercase;
+            font-weight: bold;
+          }
+        }
+        i {
+          margin-left: 10px;
+          vertical-align: middle;
+          font-size: 1.5em;
+        }
+      }
+      button:hover {
+        background-color: #605F5B;
+      }
+    }
+
+    .buy {
+      background-color: $primaryColor;
+      padding: 15px;
+      margin-left: 20px;
+      color: white;
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        .left {
+          p {
+            color: $textColorGrey;
+            margin: 20px 0;
+          }
+          button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border: none;
+            outline: none;
+            text-transform: uppercase;
+            background-color: $textColorBlue;
+            color: white;
+            cursor: pointer;
+            &:hover {
+              background-color: #1E9CFF;
+            }
+          }
+        }
+      }
+      .offer {
+        padding: 15px;
+        background-color: white;
+        margin-bottom: 100px;
+        color: $primaryColor;
+        p {
+          color: $textColorGrey;
+          margin: 10px 0;
+        }
+        a {
+          color: $textColorBlue;
+          text-decoration: none;
+          font-weight: bold;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
 }
